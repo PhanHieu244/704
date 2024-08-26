@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012418229254}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012418229254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010732950008}
+  - 114: {fileID: 114000010200280002}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010732950008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012418229254}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000010200280002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012418229254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb970f7c90eb2346a607767122c45a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLane: 4
+  laneWidth: 5.8
+  botCars:
+  - prefab: {fileID: 1000012717945992, guid: b2ca18c34c628be4d9bd18d123930e8e, type: 2}
+    ammount: 3
+  - prefab: {fileID: 1000012444016894, guid: ebb192e8cfa144c4ab8b53867a97ebc8, type: 2}
+    ammount: 2
+  - prefab: {fileID: 1000013382068668, guid: a9c1f58f031443b478b17b9325beb1df, type: 2}
+    ammount: 2
+  - prefab: {fileID: 1000010995212574, guid: a185531031d95ef44a13561bea4eabee, type: 2}
+    ammount: 1
+  distance: 30
+  maxDistance: 100
+  latestPosition: {x: 0, y: 0, z: 0}

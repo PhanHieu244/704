@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: c113dc08533c2d94bbf0e283e32979a9
+timeCreated: 1482203976
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: car3
+    100004: front_wheel_car3_lef
+    100006: front_wheel_car3_rgh
+    100008: light_car3_lef
+    100010: light_car3_rgh
+    100012: polySurface30
+    100014: rear_wheel_car3_lef
+    100016: rear_wheel_car3_rgh
+    100018: car3_axle
+    100020: car3_body
+    100022: car3_front_wheel_LEF
+    100024: car3_front_wheel_RGH
+    100026: car3_rear_wheel_LEF
+    100028: car3_rear_wheel_RGH
+    100030: front_wheel_car3_rgh8
+    400000: //RootNode
+    400002: car3
+    400004: front_wheel_car3_lef
+    400006: front_wheel_car3_rgh
+    400008: light_car3_lef
+    400010: light_car3_rgh
+    400012: polySurface30
+    400014: rear_wheel_car3_lef
+    400016: rear_wheel_car3_rgh
+    400018: car3_axle
+    400020: car3_body
+    400022: car3_front_wheel_LEF
+    400024: car3_front_wheel_RGH
+    400026: car3_rear_wheel_LEF
+    400028: car3_rear_wheel_RGH
+    400030: front_wheel_car3_rgh8
+    2300000: car3
+    2300002: front_wheel_car3_lef
+    2300004: front_wheel_car3_rgh
+    2300006: light_car3_lef
+    2300008: light_car3_rgh
+    2300010: rear_wheel_car3_lef
+    2300012: rear_wheel_car3_rgh
+    2300014: car3_axle
+    2300016: car3_body
+    2300018: car3_front_wheel_LEF
+    2300020: car3_front_wheel_RGH
+    2300022: car3_rear_wheel_LEF
+    2300024: car3_rear_wheel_RGH
+    3300000: car3
+    3300002: front_wheel_car3_lef
+    3300004: front_wheel_car3_rgh
+    3300006: light_car3_lef
+    3300008: light_car3_rgh
+    3300010: rear_wheel_car3_lef
+    3300012: rear_wheel_car3_rgh
+    3300014: car3_axle
+    3300016: car3_body
+    3300018: car3_front_wheel_LEF
+    3300020: car3_front_wheel_RGH
+    3300022: car3_rear_wheel_LEF
+    3300024: car3_rear_wheel_RGH
+    4300000: front_wheel_car3_rgh
+    4300002: rear_wheel_car3_rgh
+    4300004: front_wheel_car3_lef
+    4300006: rear_wheel_car3_lef
+    4300008: light_car3_rgh
+    4300010: light_car3_lef
+    4300012: car3
+    4300014: car3_front_wheel_LEF
+    4300016: car3_rear_wheel_LEF
+    4300018: car3_front_wheel_RGH
+    4300020: car3_rear_wheel_RGH
+    4300022: car3_body
+    4300024: car3_axle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
