@@ -45,9 +45,9 @@ public class CharacterRotating : MonoBehaviour
 		} else 
 		if (Input.GetMouseButton(0) && isRotating)
 		{
-
-			#if UNITY_EDITOR
 			float x = -Input.GetAxis("Mouse X");
+			#if UNITY_EDITOR
+			//float x = -Input.GetAxis("Mouse X");
 			#elif UNITY_ANDROID
 			float x = -Input.touches[0].deltaPosition.x;
 			#endif
@@ -68,9 +68,8 @@ public class CharacterRotating : MonoBehaviour
 	{
 		if(Input.GetMouseButtonDown(0))
 		{
-
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 			#if UNITY_EDITOR
-			Ray ray = cam.ScreenPointToRay(Input.mousePosition);
 		//	Debug.Log(""+Physics.Raycast(ray, out hit));
 		//	Debug.Log(""+hit.collider);
 			#elif UNITY_ANDROID

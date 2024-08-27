@@ -283,8 +283,9 @@ public class CarController : MonoBehaviour
     void CheckMovement()
     {
         lane = TerrainController.instance.GetPlayerLane();
-#if UNITY_EDITOR
         float moveHorizontal = Input.GetAxis("Horizontal");
+#if UNITY_EDITOR
+        
 #elif UNITY_ANDROID
 				float moveHorizontal = Input.acceleration.x;
 #endif
